@@ -1,0 +1,11 @@
+# Core HTTP library for API requests
+requests==2.31.0
+
+# Retry handling with exponential backoff
+tenacity==8.2.2
+
+# Progress bar for monitoring scraping progress
+tqdm==4.66.1
+
+# Date/time parsing utilities
+python-dateutil==2.8.2
