@@ -16,7 +16,7 @@ This project scrapes issue data from public Apache Jira projects using the Jira 
 1. Install Python 3.10+
 2. Clone this repository:
    ```bash
-   git clone <https://github.com/Akashpal0504/Apache-Jira-Scraper.git>
+   git clone <https://github.com/Akashpal0504/Apache-Jira-Web-Scraper.git>
    cd apache-jira-scraper
 3. Run scraper.py file.
 
@@ -42,4 +42,5 @@ apache-jira-scraper/
 │   ├── spark_issues.jsonl
 │   └── kafka_issues.jsonl
 └── README.md
+
 
