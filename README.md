@@ -12,11 +12,17 @@ url = https://issues.apache.org/jira/rest/api/2/search?jql=project=HADOOP&startA
 ## Table of Contents
 
 🌟 Features
+
 ⚙️ Quick Start
+
 📁 Folder Structure
+
 🖼️ Example Output
+
 🧾 Sample JSONL Entry
+
 🧠 Key Highlights
+
 📄 File includes
 
 ## Features
@@ -135,6 +141,7 @@ Each line in `.jsonl` is a separate issue record — clean, structured, and read
    - README.md
    - data/  contains:
          files (`checkpoints.json`, `hadoop_issues.jsonl`, `spark_issues.jsonl`, `kafka_issues.jsonl`)
+
 
 
 
