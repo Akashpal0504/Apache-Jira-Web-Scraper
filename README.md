@@ -28,7 +28,7 @@ Below is an example run of the scraper showing successful completion and generat
 ### ▶️ Terminal Output
 ![Terminal Output](C:\Users\AKASH PAL\OneDrive\Desktop\apache jira\hadoop_output_screenshot.jpg)
 
-![terminal_run_output](https://github.com/user-attachments/assets/cd5e1d80-fe58-40a9-ad00-ae4eafa71ffe)
+![terminal_run_output](https://github.com/Akashpal0504/Apache-Jira-Web-Scraper/blob/main/spark_output_screenshot.jpg)
 
 ## File includes:
    - scraper.py
@@ -52,6 +52,7 @@ apache-jira-scraper/
 │   ├── spark_issues.jsonl
 │   └── kafka_issues.jsonl
 └── README.md
+
 
 
 
