@@ -27,11 +27,17 @@ url = https://issues.apache.org/jira/rest/api/2/search?jql=project=HADOOP&startA
 
 ## Features
 ✅ Fetches issues, comments, and metadata (status, priority, assignee, etc.)
+
 ✅ Handles pagination, retries, and HTTP 429/5xx gracefully
+
 ✅ Resumes from last checkpoint if interrupted
+
 ✅ Transforms raw data into JSONL format
+
 ✅ Includes error handling, logging, and rate limiting
+
 ✅ Generates simple derived tasks: summarization, classification, and QnA
+
 ✅ Logs progress and maintains recoverability
 
 
@@ -47,6 +53,7 @@ url = https://issues.apache.org/jira/rest/api/2/search?jql=project=HADOOP&startA
 4. Run, this code python scraper.py in terminal.
 
 ## Folder Structure
+```
 apache-jira-scraper/
 │
 ├── scraper.py
@@ -54,13 +61,13 @@ apache-jira-scraper/
 ├── utils.py
 ├── requirements.txt
 ├── data/
-│   ├── checkpoints.json                
+│   ├── checkpoints.json     
 │   ├── hadoop_issues.jsonl
 │   ├── spark_issues.jsonl
 │   │── kafka_issues.jsonl
 │   └── (Sample 200 issues per project)
 └── README.md
-
+```
 
 ## 🖼️ Example Output
 
@@ -135,12 +142,13 @@ Each line in `.jsonl` is a separate issue record — clean, structured, and read
 | **Transformation** | Derived fields: summary, classification, qna | LLM-ready corpus                      |
 
 
-## file Includes
+## File Includes
    - scraper.py
    - requirements.txt
    - README.md
    - data/  contains:
          files (`checkpoints.json`, `hadoop_issues.jsonl`, `spark_issues.jsonl`, `kafka_issues.jsonl`)
+
 
 
 
