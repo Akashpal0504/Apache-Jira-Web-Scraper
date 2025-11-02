@@ -1,13 +1,3 @@
-#!/usr/bin/env python3
-"""
-apache-jira-scraper: Scrapes Apache Jira issues for chosen projects,
-handles pagination, retries, rate limits, resume via checkpointing,
-transforms to JSONL with derived tasks suitable for LLM training.
-
-Usage:
-    python scraper.py
-"""
-
 import requests
 import json
 import time
@@ -20,14 +10,14 @@ from dateutil import parser as dateparser
 # -------------------------
 # Configuration
 # -------------------------
-PROJECTS = ["HADOOP", "SPARK", "KAFKA"]  # Change these 3 projects if you prefer
+PROJECTS = ["HADOOP", "SPARK", "KAFKA"]  # 3 projects 
 OUTPUT_DIR = "data"
 CHECKPOINT_PATH = os.path.join(OUTPUT_DIR, "checkpoints.json")
 MAX_RESULTS = 50          # Jira maxResults per query page
 REQUEST_TIMEOUT = 15      # seconds
 SLEEP_BETWEEN_PAGES = 1.0 # seconds (politeness)
 JIRA_SEARCH_API = "https://issues.apache.org/jira/rest/api/2/search"
-USER_AGENT = "apache-jira-scraper/1.0 (email: you@example.com)"  # change email optionally
+USER_AGENT = "apache-jira-scraper/1.0 (email: you@example.com)"  
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -270,7 +260,7 @@ def scrape_project(project, start_at=0, max_results=MAX_RESULTS, checkpoint=None
                 logger.exception(f"Failed to transform issue {issue.get('key')}. Skipping.")
                 continue
 
-        # advance cursor
+        # cursor
         cur += len(issues)
         if checkpoint is not None:
             checkpoint[project] = cur
