@@ -65,16 +65,17 @@ Below is an example run of the scraper showing successful completion and generat
 
 ### 📁 Generated Files
 
-# Checkpoints_output
+Checkpoints_output
+
 ![Checkpoints_output](https://github.com/Akashpal0504/Apache-Jira-Web-Scraper/blob/main/checkpoints_output_screenshot.jpg)
 
-# Hadoop_issues_output
+Hadoop_issues_output
 ![Hadoop_issues_output](https://github.com/Akashpal0504/Apache-Jira-Web-Scraper/blob/main/hadoop_output_screenshot.jpg)
 
-# Spark_issues_output
+Spark_issues_output
 ![Spark_issues_output](https://github.com/Akashpal0504/Apache-Jira-Web-Scraper/blob/main/spark_output_screenshot.jpg)
 
-# Kafka_issues_output
+Kafka_issues_output
 ![Kafka_issues_output](https://github.com/Akashpal0504/Apache-Jira-Web-Scraper/blob/main/kafka_output_screenshot.jpg)
 
 
@@ -115,7 +116,7 @@ Each line in `.jsonl` is a separate issue record — clean, structured, and read
     ]
   }
 }
-
+```
 
 ## Key Highlights
 
@@ -134,6 +135,7 @@ Each line in `.jsonl` is a separate issue record — clean, structured, and read
    - README.md
    - data/  contains:
          files (`checkpoints.json`, `hadoop_issues.jsonl`, `spark_issues.jsonl`, `kafka_issues.jsonl`)
+
 
 
 
