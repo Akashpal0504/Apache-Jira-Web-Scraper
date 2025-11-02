@@ -20,6 +20,15 @@ This project scrapes issue data from public Apache Jira projects using the Jira 
    cd apache-jira-scraper
 3. Run scraper.py file.
 
+
+## 🖼️ Example Output
+
+Below is an example run of the scraper showing successful completion and generated files.
+
+### ▶️ Terminal Output
+![Terminal Output](terminal_run_ouput.jpg)
+
+
 ## File includes:
    - scraper.py
    - requirements.txt
@@ -42,5 +51,6 @@ apache-jira-scraper/
 │   ├── spark_issues.jsonl
 │   └── kafka_issues.jsonl
 └── README.md
+
 
 
