@@ -1,5 +1,6 @@
 {
-  "HADOOP": 400,
-  "SPARK": 400,
-  "KAFKA": 400
+  "HADOOP": 200,
+  "SPARK": 200,
+  "KAFKA": 200
+
 }
