@@ -1,4 +1,4 @@
-# Apache Jira Web Scraper
+# Apache Web Scraping Tutor
 
 ## 📌 Overview
 🚀 A robust, fault-tolerant Python scraper that extracts public issue data from public Apache Jira projects using the Jira REST API and converts it into JSONL format for LLM training.
@@ -148,6 +148,7 @@ Each line in `.jsonl` is a separate issue record — clean, structured, and read
    - README.md
    - data/  contains:
          files (`checkpoints.json`, `hadoop_issues.jsonl`, `spark_issues.jsonl`, `kafka_issues.jsonl`)
+
 
 
 
