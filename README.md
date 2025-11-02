@@ -26,7 +26,7 @@ This project scrapes issue data from public Apache Jira projects using the Jira 
 Below is an example run of the scraper showing successful completion and generated files.
 
 ### ▶️ Terminal Output
-![Terminal Output](terminal_run_ouput.jpg)
+![Terminal Output](C:\Users\AKASH PAL\OneDrive\Desktop\apache jira\hadoop_output_screenshot.jpg)
 
 
 ## File includes:
@@ -51,6 +51,7 @@ apache-jira-scraper/
 │   ├── spark_issues.jsonl
 │   └── kafka_issues.jsonl
 └── README.md
+
 
 
 
